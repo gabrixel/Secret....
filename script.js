@@ -11,8 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // GOOGLE SHEETS RESPONSE
   // =========================
 
-  const RESPONSE_URL = "https://script.google.com/macros/s/AKfycbzWvg_oqanSkxv_Y7URoLL7YIVCrfVMPg_kzV2KyJAg90SbGIxIyokGGbCTaXdqEvuj/exec";
-
   function sendResponse(responseText) {
 
     fetch(RESPONSE_URL, {
